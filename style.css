@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    padding: 10px;
+    color: #003049;
+    font-weight: bold;
+    background-color: rgb(250, 250, 164);
+    margin-top: 15px;
+    margin-left: 80vh;
+    margin-right: 80vh;
+    width:auto;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+}
+body{
+    background-image: url(pexels-ann-h-45017-25912348.jpg);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: #fdf0d5;
+}
+#reset-btn{
+    padding: 2rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    background-color: #003049;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 2rem;
+    font-size:2.1rem;
+    background-color: #003049;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-weight: bold;
+}
+
+#msg{
+    color: #780000;
+    background-color: #fdf0d5;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    border-radius: 1rem;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.hide{
+    display: none;
+}
